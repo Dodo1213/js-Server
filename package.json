@@ -1,0 +1,19 @@
+{
+  "name": "js-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js debug",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html": "^1.0.0",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "chalk": "^2.4.2",
+    "morgan": "^1.9.1"
+  }
+}
