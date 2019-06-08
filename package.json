@@ -7,7 +7,7 @@
     "test": "node server.js debug",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Dodo1213",
   "license": "ISC",
   "dependencies": {
     "html": "^1.0.0",
