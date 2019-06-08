@@ -12,4 +12,4 @@ app.use(morgan('dev')) // logging
 app.get('/', (req, res, next) => res.sendFile(path.join(__dirname, 'index.html')));
 const port = config.port;
 //Run Server
-app.listen(process.env.PORT || port, () => console.log(chalk.blue(`Listening intently on port ${port}`)));
+app.listen(process.env.PORT || port, () => console.log(chalk.blue(`Läuft auf port:${port}`)));
